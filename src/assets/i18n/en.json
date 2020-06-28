@@ -1,0 +1,5 @@
+{
+"GOOGLE" :"Google is my friends", 
+"TESTINGLANG" : [ {"INDEX" : "0" , "DATA" : "data 0"} ,   {"INDEX" : "1" ,  "DATA" :  "data 1"}]
+
+}

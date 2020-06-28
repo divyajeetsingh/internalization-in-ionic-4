@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-item>
+        <ion-label>change language</ion-label>
+        <ion-select placeholder="Select One"   (ionChange)="manageSelection()"   [(ngModel)]="selectData"  >
+          <ion-select-option value="en">English</ion-select-option>
+          <ion-select-option value="fr">French</ion-select-option>
+        </ion-select>
+      </ion-item>
+    
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- <a href="mailto:test@example.com?subject=Testing out mailto!">First Example</a>
+You can also add text into the body of the message by adding &body=body to the end of the tag, as shown in the example below.
+
+<a href="mailto:test@example.com?subject=Testing out mailto!&body=This is only a test!">Second Example</a> -->
+
+<h1>   {{ 'GOOGLE' | translate}}</h1>
+
+<div  *ngIf="arrayData" > 
+  <div *ngFor="let item of translateHadlerServices.selectTransData">
+    {{item    |  json}}
+
+  </div>
+</div>
+
+
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
+</ion-content>

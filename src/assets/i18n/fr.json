@@ -1,0 +1,5 @@
+{
+"GOOGLE" :"Google est mon ami",
+"TESTINGLANG" : [ {"INDEX" : "0" , "DATA" : "données 0"} ,
+    {"INDEX" : "1" ,  "DATA" :  "données 1"}]
+}
